@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Art Gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Art Gallery Website</title>
+</head>
+<body>
+    <div class="header">
+        <div class="intro">
+        <img src="./ART/art logo.png" width="80px" height="80px">
+            <h1>Creative &nbsp; Crayons</h1>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <nav class="nav-bar">
+              <ul>
+                  <li class="active"><a href="#"><i class="fa-solid fa-igloo"></i>Home</a></li>
+                  <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+                  <li><a href="#"><i class="fa-solid fa-paintbrush"></i>Paintings</a>
+                          <div class="dropdown">
+                          <ul>
+                              <li><a href="#">Watercolor</a></li>
+                              <li><a href="#">Oil Painting</a></li>
+                              <li><a href="#">Action Painting</a></li>
+                              <li><a href="#">Pop Art</a></li>
+                              <li><a href="#">Chinese Painting</a></li>
+                              <li><a href="#">Acrylic Painting</a></li>
+                              <li><a href="#">Abstract Painting</a></li>
+                              <li><a href="#">Portrait Painting</a></li>
+                              <li><a href="#">Life Painting</a></li>
+                              <li><a href="#">Photorealism</a></li>
+                          </ul>
+                          </div>
+                  
+                  </li>
+                  <li><a href="#"><i class="fa-solid fa-bell-concierge"></i>Services</a></li>
+                  <li><a href="#"><i class="fa-solid fa-square-phone"></i></i>Call</a></li>  
+              </ul>
+            
+            </nav>
+
+    </div>
+        <div class="content">
+            <video autoplay loop class="back-video" muted plays-inline src="./ART/art bg.mp4" type="video/mp4">
+            </video>
+            <h2>Welcome to my World of Paintings</h2>
+            <form>
+                <input type="text" placeholder="Enter Keywords">
+                <button type="submit">Find More Paintings</button>
+            </form>
+            <div class="category-list">
+                <div class="category">
+                    <img src="./Images/expand.png" width="25px" height="25px">
+                    <p>All types of paintings</p>
+                </div>
+                <div class="category">
+                    <img src="./Images/planet-earth.png" width="25px" height="25px">
+                    <p>Nature</p>
+                </div>
+                <div class="category">
+                    <img src="./Images/crowd.png" width="25px" height="25px">
+                    <p>People</p>
+                </div>
+                <div class="category">
+                    <img src="./Images/life-insurance.png" width="25px" height="25px">
+                    <p>Still Life</p>
+                </div>
+                <div class="category">
+                    <img src="./Images/road.png" width="25px" height="25px">
+                    <p>Street</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="column2">
+            <div class="left">
+                <h2>A Few Words About Me</h2>
+                <p>My name is ASEEM JOSHI, and I have been a fine artist since my youth.
+                   I find inspiration from the innovative styles of contemporary and urban art,such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. 
+                   It educates visually by either moving you, pleasing you, or even inspiring you.</p>
+            </div>
+            <div class="right">
+                <img src="./ART/column2.jpg" width="400px" height="250px">
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="title">
+                <h1>My Paintings</h1>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <img src="./ART/watercolor.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/oil painting.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/action.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/pop art.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/chinese painting.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/acrylic.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/abstract.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART/portarit.jpeg">
+                </div>
+                <div class="item">
+                    <img src="./ART/sea storm.jpg">
+                </div>
+                <div class="item">
+                    <img src="./ART//photorealism.jpg">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="prev"> &lt; </button>
+                <button id="next"> &gt;</button>
+            </div>
+
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <section class="container">
+            <div class="title">
+                <h1>My Services</h1>
+                <p>If you are looking for custom paintings, which will decorate your home or office, <br>consider
+                    booking one or several of my services listed below. <br> They will add more colors and emotions to
+                    your daily life.</p>
+            </div>
+            <section class="card__container">
+                <div class="card__bx" style="background-color: rgb(216, 255, 214);">
+                    <div class="card__data">
+                        <div class="card__icon" style="color: rgb(28, 224, 28);">
+                            <i class="fa-brands fa-pagelines"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>Nature</h3>
+                            <p>Drawing Nature to to free ourselves from this prison 
+                               by widening our circle of compassion 
+                               and the whole of nature in its beauty.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__bx"  style="background-color: rgb(255, 214, 214);">
+                    <div class="card__data">
+                        <div class="card__icon" style="color: rgb(254, 133, 133);">
+                            <i class="fa-solid fa-users-viewfinder"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>People</h3>
+                            <p>Drawing Portrait to see yourself in a way 
+                               that's different than just looking in a mirror or snapping a picture on your phone. </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__bx" style="background-color: rgb(251, 255, 214);">
+                    <div class="card__data">
+                        <div class="card__icon"  style="color: rgb(246, 201, 2);">
+                            <i class="fa-solid fa-elevator"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>Still Life</h3>
+                            <p>Drawing Still Life to slow down,breathe and appreciate beauty in the simplest things.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__bx" style="background-color: rgb(214, 229, 255);">
+                    <div class="card__data">
+                        <div class="card__icon" style="color: rgb(90, 148, 250);">
+                            <i class="fa-solid fa-street-view"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>Urban Street</h3>
+                            <p>Drawing Street to liberate your soul and provoke the imagination.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__bx" style="background-color: rgb(255, 214, 243);">
+                    <div class="card__data">
+                        <div class="card__icon" style="color: rgb(249, 125, 212);">
+                            <i class="fa-solid fa-face-surprise"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>Expressionism</h3>
+                            <p>Drawing Expressionism to express emotional experience, rather than physical reality. </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__bx" style="background-color: rgb(214, 255, 255);">
+                    <div class="card__data">
+                        <div class="card__icon" style="color: rgb(0, 216, 216);">
+                            <i class="fa-solid fa-arrows-to-circle"></i>
+                        </div>
+                        <div class="card__content">
+                            <h3>Abstract</h3>
+                            <p>Drawing Abstract to to stand for virtues such as order, purity, simplicity and spirituality.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="blog">
+            <div class="blog-heading">
+                <h1>My Blogs</h1>
+                <strong>Recent Posts</strong>
+            </div>
+            <div class="blog-box-container">
+                <div class="blog-box">
+                    <div class="blog-box-img">
+                        <img src="./ART/art studio.jpg">
+                        <a href="#" class="youtube-link"><i class="fa-brands fa-youtube fa-lg" style="color: #cc0000;"></i></a>
+                    </div>
+                    <div class="blog-box-text">
+                        <strong>Art Studio</strong>
+                        <a href="#">Art Studio - What is it and How to Set Up a Home Art Studio on A Budget ?</a>
+                        <p>An Art studio is a place where art is born.Truthfully, you don't need much to set up an in-home art studio. Basically, it comes down to two core components: a space and organization for your materials. 
+                            Plus, you'll also need to think about your ideal budget for the space. </p>
+                        <div class="blog-author">
+                            <div class="blog-author-img">
+                                <img src="./ART/aseem.jpg">
+                            </div>
+                            <div class="blog-author-text">
+                                <strong>Aseem Joshi</strong>
+                                <span>June 12,2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-box">
+                    <div class="blog-box-img">
+                        <img src="./ART/fine art.jpg">
+                        <a href="#" class="youtube-link"><i class="fa-brands fa-youtube fa-lg" style="color: #cc0000;"></i></a>
+                    </div>
+                    <div class="blog-box-text">
+                        <strong>Latest Trends in Fine Arts</strong>
+                        <a href="#">Fine Arts - What is it and What are Latest Trends in Arts?</a>
+                        <p>Visual art forms such as painting play around with shape, form, and texture. In 2023, we've seen a rise in textured artwork—art pieces that offer a tactile experience. 
+                            Textured paintings can be seen as well as felt, which adds a new dimension to art.</p>
+                        <div class="blog-author">
+                            <div class="blog-author-img">
+                                <img src="./ART/aseem.jpg">
+                            </div>
+                            <div class="blog-author-text">
+                                <strong>Aseem Joshi</strong>
+                                <span>July 23,2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-box">
+                    <div class="blog-box-img">
+                        <img src="./ART/imagine.jpg" >
+                        <a href="#" class="youtube-link"><i class="fa-brands fa-youtube fa-lg" style="color: #cc0000;"></i></a>
+                    </div>
+                    <div class="blog-box-text">
+                        <strong>Imagination Into Art</strong>
+                        <a href="#">Imagination - What is it and How to turn Imagination to Art ?</a>
+                        <p>Imaginations the key ingredient that allows artists to push boundaries, experiment with new techniques and styles, and create truly original works of art. </p>
+                        <div class="blog-author">
+                            <div class="blog-author-img">
+                                <img src="./ART/aseem.jpg">
+                            </div>
+                            <div class="blog-author-text">
+                                <strong>Aseem Joshi</strong>
+                                <span>August 5,2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div class="counter_number">
+            <div class="counter-box">
+                <i class="fa-solid fa-palette"></i>
+              <span class="num" data-val="200">000</span>
+              <span class="text"> Projects Completed</span>
+            </div>
+            <div class="counter-box">
+                <i class="fa-regular fa-face-laugh"></i>
+              <span class="num" data-val="340">000</span>
+              <span class="text">Happy Clients</span>
+            </div>
+            <div class="counter-box">
+                <i class="fa-solid fa-trophy"></i>
+              <span class="num" data-val="60">000</span>
+              <span class="text">International Awards</span>
+            </div>
+            <div class="counter-box">
+                <i class="fa-solid fa-user-tie"></i>
+              <span class="num" data-val="15">000</span>
+              <span class="text">Years of Expertise </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row">
+            <div class="col">
+                <img src="./ART/art logo.png" class="logo" width="80px" height="70px">
+                <p>Subscribe Creative Crayons' You Tube Channel to watch more videos on paintings of your choice and 
+                   press the bell icon to get notification of latest updates.</p>
+            </div>
+            <div class="col">
+                <h3>Office<div class="underline"><span></span></div></h3>
+                <p>456, Park Avenue </p>
+                <p>New York Street,NY-10022</p>
+                <p class="email-id">creativecrayons@gmail.com</p>
+                <h4>+1-646-555-4099</h4>
+            </div>
+            <div class="col">
+                <h3>Links<div class="underline"><span></span></h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Paintings</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter<div class="underline"><span></span></h3>
+                <form>
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <input type="email" placeholder="Enter Your Email Id" required>
+                    <button type="submit"><i class="fa-solid fa-circle-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #075ef2;"></i>
+                    <i class="fa-brands fa-twitter fa-xl" style="color: #4dc9fe;"></i>
+                    <i class="fa-brands fa-whatsapp fa-xl" style="color: #00b815;"></i>
+                    <i class="fa-brands fa-pinterest fa-xl" style="color: #c70000;"></i>
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #db00be;"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Creative Crayons &#169; 2008 - All Rights Reserved</p>
+</div>
+</body>
+<script>
+
+hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+   
+    let list = document.querySelector('.slider .list');
+    let items = document.querySelectorAll('.slider .list .item');
+    let dots = document.querySelectorAll('.slider .dots li');
+    let prev = document.getElementById('prev');
+    let next = document.getElementById('next');
+
+    let active = 0;
+    let lengthItems = items.length - 1;
+    next.onclick = function(){
+        if(active + 1 > lengthItems){
+            active = 0;
+        } else{
+            active = active + 1;
+        }
+        reloadSlider();
+    }
+    prev.onclick = function(){
+        if(active - 1 > 0){
+            active = lengthItems;
+    }else{
+            active = active - 1;
+}
+reloadSlider();
+}
+let refreshSlider = setInterval(() => {next.click()} ,5000);
+    function reloadSlider(){
+        let checkLeft = items[active].offsetLeft;
+        list.style.left = -checkLeft + 'px';
+        let lastActiveDot = document.querySelector('.slider .dots li.active');
+        lastActiveDot.classList.remove('active');
+        dots[active].classList.add('active');
+        clearInterval(refreshSlider);
+        refreshSlider = setInterval(() => {next.click()} ,5000);
+    }
+dots.forEach((li,key) =>{
+     li.addEventListener('click', function(){
+     active = key;
+     reloadSlider();
+})
+})
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
+function onMenuClick(){
+    var navbar = document.querySelector("ul");
+    var responsive = "responsive";
+
+    navbar.classList.toggle(responsive);
+}
+</script>
+</html>
